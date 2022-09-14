@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto+Mono&family=Roboto:wght@400;500&display=swap');
+
+.landing-page-container{
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-text{
+  width: 50%;
+  text-align: center;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.landing-text p {
+  color: white;
+  font-size: 2em;
+  margin-top: 5vh;
+}
+
+.landing-text span{
+  color:  #FF5252;
+  font-size: 1.5em;
+}
+
+.landing-art{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.text-gradient {
+  background: #CFCFCF;
+  background: radial-gradient(circle farthest-corner at top left, #fffefe  0%, #ff3535 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+@media screen and ( max-width: 830px){
+  .landing-page-container{
+    flex-direction: column;
+  }
+
+  .landing-text{
+    width: 90%;
+    margin-bottom: 20vh;
+  }
+
+  .landing-art{
+    width: 90%;
+  }
+}
